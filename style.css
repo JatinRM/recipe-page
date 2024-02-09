@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit',sans-serif;
+}
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 20% 5% 20%;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#food_image {
+    margin: 5% 5% 0 5%;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: 'Young Serif',sans-serif;
+    font-weight: 400;
+    margin: 5% 5% 0% 5%;
+}
+
+#overview {
+    margin: 3% 5% 0 5%;
+}
+
+#preparation_time {
+    margin: 5% 5% 0 5%;
+    background-color: hsl(330, 100%, 98%);
+}
+
+h3 {
+    margin-left: 5%;
+    color: hsl(332, 51%, 32%);
+}
+
+.line {
+    color: black;
+    padding: 0 40%;
+}
+
+.heading2 {
+    color: hsl(332, 51%, 32%);
+    margin: 3% 5% 0% 5%;
+    font-family: 'Young Serif',sans-serif;
+    font-weight: 400;
+}
+
+li {
+    line-height: 4vh;
+    padding: 0 3% 0 5%;
+}
+
+li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+ul, ol {
+    padding: 0 5% 0 10%;
+}
+
+#overview2 {
+    margin: 3% 5% 5% 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 15% 2% 15%;
+}
+
+.column {
+    flex: 1;
+}
+
+.values {
+    color: hsl(332, 51%, 32%);;
+}
